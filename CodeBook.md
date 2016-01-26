@@ -59,10 +59,10 @@ the train(7352 observations) and test groups (2947 observations)
   - These datasets have been processed by the researchers as described above.
 
 * y\_train.txt and y\_test.txt
-  -contain the activity ID column for the datasets.
+  - Contain the activity ID column for the datasets.
 
 * subject\_train.txt and subject_test.txt
-  -contain the participant ID number column for the datasets.
+  - Contain the participant ID number column for the datasets.
 
 In addition, there are folders named
 "Inertial Signals" with unprocessed datasets from the accelerometers and gyroscopes.
