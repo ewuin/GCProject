@@ -15,12 +15,17 @@ The dataset author's description can be found [here]
 
 The data were generated as part of an experiment done by university researchers to quantitatively describe human motion. They used signals from cell phone accelerometers and gyroscopes to generate data as 30 human participants did six activities
 
--WALKING
--WALKING UPSTAIRS
--WALKING DOWNSTAIRS
--SITTING
--STANDING
--LAYING
+*WALKING
+
+*WALKING UPSTAIRS
+
+*WALKING DOWNSTAIRS
+
+*SITTING
+
+*STANDING
+
+*LAYING
 
 ## Description of the variables
 For each particpant for each activity, data were gathered measuring their translational
@@ -35,29 +40,29 @@ The data that was downloaded came divided into two folders for the two study gro
 The data come with the following descriptive files:
 
 * activity_labels.txt 
-- Indexes of the 6 activities
+  - Indexes of the 6 activities
 
 * features.txt 
-- The names of the 561 variables in the data as processed by the original researchers.
+  - The names of the 561 variables in the data as processed by the original researchers.
 
 * features_info.txt
-- The dataset authors' descriptions of the variables in features.txt
+  - The dataset authors' descriptions of the variables in features.txt
 
 * README.txt
-- Dataset authors' Readme file.
+  - Dataset authors' Readme file.
 
 The files containing the data used by the script are the following. All data are treated as numeric by R.
 
 * X\_train.txt  and  X\_test.txt 
-- Contain the 561 columns of data for
+  - Contain the 561 columns of data for
 the train(7352 observations) and test groups (2947 observations)
-- These datasets have been processed by the researchers as described above.
+  - These datasets have been processed by the researchers as described above.
 
 * y\_train.txt and y\_test.txt
--contain the activity ID column for the datasets.
+  -contain the activity ID column for the datasets.
 
 * subject\_train.txt and subject_test.txt
--contain the participant ID number column for the datasets.
+  -contain the participant ID number column for the datasets.
 
 In addition, there are folders named
 "Inertial Signals" with unprocessed datasets from the accelerometers and gyroscopes.
